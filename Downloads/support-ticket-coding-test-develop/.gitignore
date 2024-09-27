@@ -1,4 +1,8 @@
-/.phpunit.cache
+# Exclude directories and files outside the repo
+../../*
+
+# Existing entries (modify or keep as needed)
+.phpunit.cache
 /node_modules
 /public/build
 /public/hot
@@ -17,9 +21,4 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-../../.anaconda/
-../../.cache/
-../../.config/
-../../.local/
-../../.npm/
-../../.ssh/
+
