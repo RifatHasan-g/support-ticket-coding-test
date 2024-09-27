@@ -12,70 +12,74 @@
 ![Screenshot](screenshotOfApp/Screenshot from 2024-09-27 18-41-41.png)
 
 
-
-
 # Support Ticket Management System
 
-This is a Laravel-based support ticket management system that allows users to create, manage, and track support tickets.
+This project is a Support Ticket System built with Laravel. It allows customers to submit issues by creating tickets and enables admins to manage and respond to them.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+
+
+## Features
+
+- Customer can submit a support ticket.
+- Admin is notified via email when a ticket is submitted.
+- Admin can respond to customer tickets.
+- Customer receives email notifications when the admin responds or closes the ticket.
+- Basic user roles: Admin and Customer.
+
+## Technologies
+
+- Laravel (PHP Framework)
+- MySQL (Database)
+- HTML, CSS, Bootstrap (Frontend)
+- Git for version control
 
 ## Getting Started
 
-Follow the instructions below to download, configure, and run the project on your local machine.
+To get a local copy of the project up and running, follow these steps.
 
 ### Prerequisites
 
-Ensure that you have the following software installed on your system:
+Make sure you have the following tools installed:
 
-- PHP 
+- PHP
 - Composer
-- npm
+- Node.js & npm
+- MySQL
 - Git
-- MySQL (or any other supported database)
 
 ### Installation
 
-1. **Clone the repository**
+1. **Clone the repository:**
 
-   Open your terminal and run the following command:
-
-
-   git clone .......
-
-Navigate to the project directory
+   git clone......
 
 
-cd support-ticket-coding-test
+2. Navigate to the project directory:
 
-Install PHP dependencies
+   cd support-ticket-coding-test
 
-Run the following command to install the PHP dependencies:
-
-
+3. Install PHP dependencies:
 
 composer install
 
-Install JavaScript dependencies
-
-Run the following command to install the necessary JavaScript dependencies:
-
-
+4. Install Node.js dependencies:
 
 npm install
 
-Create a copy of the .env file
-
-Copy the .env.example file to .env:
-
-
-
+5. Copy the .env file:
 cp .env.example .env
 
-Update the environment variables
+6. Update the environment variables:
 
-Open the .env file in a text editor and update the following database and mail configuration:
-
-dotenv
-
+Open the .env file and set the database and mail configuration.
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -86,36 +90,30 @@ DB_PASSWORD=yourpassword
 MAIL_MAILER=smtp
 MAIL_HOST=sandbox.smtp.mailtrap.io
 MAIL_PORT=587
-MAIL_USERNAME=9856bhdfg
-MAIL_PASSWORD=f86gdfncvghfg
+MAIL_USERNAME=9856fgfg4545
+MAIL_PASSWORD=f86fgfgfgfg45645
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS="rifathasan20115@gmail.com"
 MAIL_FROM_NAME="${APP_NAME}"
 
-Generate the application key
-
-Run the following command to generate a unique application key:
 
 
+
+7. Generate the application key:
 
 php artisan key:generate
 
-Run database migrations
-
-Run the following command to create the necessary tables in your database:
-
-
+8. Run database migrations:
 
     php artisan migrate
 
-Running the Application
+9. Running the Application with 
 
-    Start the development server
-
-    Run the following command to start the Laravel development server:
-
- 
+    Start the development server:
 
 php artisan serve
 
-This will start the application at http://127.0.0.1:8000.
+
+10. Open the application:
+
+Access the application in your browser at http://127.0.0.1:8000.
