@@ -23,3 +23,5 @@ yarn-error.log
 /.vscode
 
 ../../*
+/*
+!/support-ticket-coding-test-develop/
