@@ -38,12 +38,11 @@ Ensure that you have the following software installed on your system:
 
    Open your terminal and run the following command:
 
-   ```bash
+
    git clone .......
 
 Navigate to the project directory
 
-bash
 
 cd support-ticket-coding-test
 
@@ -51,7 +50,7 @@ Install PHP dependencies
 
 Run the following command to install the PHP dependencies:
 
-bash
+
 
 composer install
 
@@ -59,7 +58,7 @@ Install JavaScript dependencies
 
 Run the following command to install the necessary JavaScript dependencies:
 
-bash
+
 
 npm install
 
@@ -67,7 +66,7 @@ Create a copy of the .env file
 
 Copy the .env.example file to .env:
 
-bash
+
 
 cp .env.example .env
 
@@ -97,7 +96,7 @@ Generate the application key
 
 Run the following command to generate a unique application key:
 
-bash
+
 
 php artisan key:generate
 
@@ -105,7 +104,7 @@ Run database migrations
 
 Run the following command to create the necessary tables in your database:
 
-bash
+
 
     php artisan migrate
 
@@ -115,7 +114,7 @@ Running the Application
 
     Run the following command to start the Laravel development server:
 
-    bash
+ 
 
 php artisan serve
 
