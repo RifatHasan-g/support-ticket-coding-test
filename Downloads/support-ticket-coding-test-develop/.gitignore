@@ -1,5 +1,6 @@
-# Exclude directories and files outside the repo
-../../*
+
+/*
+!/support-ticket-coding-test-develop/
 
 # Existing entries (modify or keep as needed)
 .phpunit.cache
@@ -22,6 +23,4 @@ yarn-error.log
 /.idea
 /.vscode
 
-../../*
-/*
-!/support-ticket-coding-test-develop/
+
